@@ -148,6 +148,38 @@ a {
   }
 }
 
+@media screen and (max-width: 490px) {
+  .box-class {
+    width: 90%;
+    height: 20%;
+    gap: 1rem;
+  }
+
+  .box-class h1 {
+    font-size: 20px;
+  }
+
+  .box-class p {
+    font-size: 16px;
+  }
+
+  .circle {
+    width: 9rem;
+    height: 9rem;
+    top: 24rem;
+    left: -0.75rem;
+
+  }
+
+  .circle2 {
+    width: 9rem;
+    height: 9rem;
+    top: 15rem;
+    right: .75rem;
+
+  }
+}
+
 @media screen and (min-width: 770px) {
   .circle {
     top: calc(100% - 23rem);
